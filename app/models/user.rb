@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  # has_one :patientenverfuegung
+  has_one :patientenverfuegung
 end

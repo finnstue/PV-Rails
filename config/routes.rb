@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about', as: :about
   get 'contact', to: 'pages#contact', as: :contact
   get 'interview', to: 'pages#interview', as: :interview
+  resources :patientenverfuegung, only: [:new, :create, :update, :edit, :show]
 end

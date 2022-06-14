@@ -1,4 +1,6 @@
 class PatientenverfuegungController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:new, :create]
+
   def show
     @patientenverfuegung = Patientenverfuegung.find(params[:id])
     # authorize @patientenverfuegung
@@ -10,6 +12,12 @@ class PatientenverfuegungController < ApplicationController
   end
 
   def create
+    @patientenverfuegung = Patientenverfuegung.new(patientenverfuegung_params)
+    if @patientenverfuegung.save
+      redirect_to patientenverfuegung_path(@patientenverfuegung)
+    else
+      render :new
+    end
   end
 
   def update

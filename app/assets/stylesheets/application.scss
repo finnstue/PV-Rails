@@ -15,3 +15,276 @@
  */
 
  @import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+
+.black-flat { background-color: #000000 }
+.black-flat .secondary-bg { background-color: #27224F }
+.black-flat .accent-bg { background-color: #4736CA }
+.black-flat .primary-color { color: #FFFFFF }
+.black-flat .secondary-color { color: #E0DDF6 }
+.black-flat .svg-fill { fill: #FFFFFF }
+
+.black-gradient { background: linear-gradient(#27224F, #000000) }
+.black-gradient .secondary-bg { background-color: #27224F }
+.black-gradient .accent-bg { background-color: #4736CA }
+.black-gradient .primary-color { color: #FFFFFF }
+.black-gradient .secondary-color { color: #E0DDF6 }
+.black-gradient .svg-fill { fill: #FFFFFF }
+
+.black-accent { background-color: #4736CA }
+.black-accent .secondary-bg { background-color: #27224F }
+.black-accent .accent-bg { background-color: #000000 }
+.black-accent .primary-color { color: #FFFFFF }
+.black-accent .secondary-color { color: #E9FEFC }
+.black-accent .svg-fill { fill: #FFFFFF }
+
+.black-black { background-color: #27224F }
+.black-black .secondary-bg { background-color: #000000 }
+.black-black .accent-bg { background-color: #4736CA }
+.black-black .primary-color { color: #FFFFFF }
+.black-black .secondary-color { color: #F0F0F0 }
+.black-black .svg-fill { fill: #FFFFFF }
+
+.black-white { background-color: #FFFFFF }
+.black-white .secondary-bg { background-color: #E0DDF6 }
+.black-white .accent-bg { background-color: #4736CA }
+.black-white .primary-color { color: #000000 }
+.black-white .secondary-color { color: #8F8F8F }
+.black-white .svg-fill { fill: #4736ca }
+
+.blue-flat { background-color: #0065FF }
+.blue-flat .secondary-bg { background-color: #041029 }
+.blue-flat .accent-bg { background-color: #00CC47 }
+.blue-flat .primary-color { color: #FFFFFF }
+.blue-flat .secondary-color { color: #D8E8FF }
+.blue-flat .svg-fill { fill: #FFFFFF }
+
+.blue-gradient { background: linear-gradient(#00C3FF, #0065FF) }
+.blue-gradient .secondary-bg { background-color: #041029 }
+.blue-gradient .accent-bg { background-color: #00CC47 }
+.blue-gradient .primary-color { color: #FFFFFF }
+.blue-gradient .secondary-color { color: #D8E8FF }
+.blue-gradient .svg-fill { fill: #FFFFFF }
+
+.blue-accent { background-color: #00CC47 }
+.blue-accent .secondary-bg { background-color: #041029 }
+.blue-accent .accent-bg { background-color: #0065FF }
+.blue-accent .primary-color { color: #FFFFFF }
+.blue-accent .secondary-color { color: #DCF8E6 }
+.blue-accent .svg-fill { fill: #FFFFFF }
+
+.blue-black { background-color: #041029 }
+.blue-black .secondary-bg { background-color: #0065FF }
+.blue-black .accent-bg { background-color: #00CC47 }
+.blue-black .primary-color { color: #FFFFFF }
+.blue-black .secondary-color { color: #DADBDF }
+.blue-black .svg-fill { fill: #FFFFFF }
+
+.blue-white { background-color: #FFFFFF }
+.blue-white .secondary-bg { background-color: #D8E8FF }
+.blue-white .accent-bg { background-color: #00CC47 }
+.blue-white .primary-color { color: #000000 }
+.blue-white .secondary-color { color: #8F8F8F }
+.blue-white .svg-fill { fill: #0065FF }
+.fuschia-flat { background-color: #BB3385 }
+.fuschia-flat .secondary-bg { background-color: #4831B8 }
+.fuschia-flat .accent-bg { background-color: #56AFD5 }
+.fuschia-flat .primary-color { color: #FFFFFF }
+.fuschia-flat .secondary-color { color: #F3DCEA }
+.fuschia-flat .svg-fill { fill: #FFFFFF }
+
+.fuschia-gradient { background: linear-gradient(#F93268, #4731B9) }
+.fuschia-gradient .secondary-bg { background-color: #4831B8 }
+.fuschia-gradient .accent-bg { background-color: #56AFD5 }
+.fuschia-gradient .primary-color { color: #FFFFFF }
+.fuschia-gradient .secondary-color { color: #F3DCEA }
+.fuschia-gradient .svg-fill { fill: #FFFFFF }
+
+.fuschia-accent { background-color: #56AFD5 }
+.fuschia-accent .secondary-bg { background-color: #4831B8 }
+.fuschia-accent .accent-bg { background-color: #BB3385 }
+.fuschia-accent .primary-color { color: #FFFFFF }
+.fuschia-accent .secondary-color { color: #E4F2F8 }
+.fuschia-accent .svg-fill { fill: #FFFFFF }
+
+.fuschia-black { background-color: #4831B8 }
+.fuschia-black .secondary-bg { background-color: #BB3385 }
+.fuschia-black .accent-bg { background-color: #56AFD5 }
+.fuschia-black .primary-color { color: #FFFFFF }
+.fuschia-black .secondary-color { color: #E7E4F6 }
+.fuschia-black .svg-fill { fill: #FFFFFF }
+
+.fuschia-white { background-color: #FFFFFF }
+.fuschia-white .secondary-bg { background-color: #F3DCEA }
+.fuschia-white .accent-bg { background-color: #56AFD5 }
+.fuschia-white .primary-color { color: #000000 }
+.fuschia-white .secondary-color { color: #8F8F8F }
+.fuschia-white .svg-fill { fill: #BB3385 }
+.lightblue-flat { background-color: #01D8FD }
+.lightblue-flat .secondary-bg { background-color: #2898FB }
+.lightblue-flat .accent-bg { background-color: #297AFB }
+.lightblue-flat .primary-color { color: #FFFFFF }
+.lightblue-flat .secondary-color { color: #D7F9FF }
+.lightblue-flat .svg-fill { fill: #FFFFFF }
+
+.lightblue-gradient { background: linear-gradient(#2898FB, #01D8FD) }
+.lightblue-gradient .secondary-bg { background-color: #2898FB }
+.lightblue-gradient .accent-bg { background-color: #297AFB }
+.lightblue-gradient .primary-color { color: #FFFFFF }
+.lightblue-gradient .secondary-color { color: #D7F9FF }
+.lightblue-gradient .svg-fill { fill: #FFFFFF }
+
+.lightblue-accent { background-color: #297AFB }
+.lightblue-accent .secondary-bg { background-color: #2898FB }
+.lightblue-accent .accent-bg { background-color: #01D8FD }
+.lightblue-accent .primary-color { color: #FFFFFF }
+.lightblue-accent .secondary-color { color: #D3E4FE }
+.lightblue-accent .svg-fill { fill: #FFFFFF }
+
+.lightblue-black { background-color: #2898FB }
+.lightblue-black .secondary-bg { background-color: #01D8FD }
+.lightblue-black .accent-bg { background-color: #297AFB }
+.lightblue-black .primary-color { color: #FFFFFF }
+.lightblue-black .secondary-color { color: #DBEEFE }
+.lightblue-black .svg-fill { fill: #FFFFFF }
+
+.lightblue-white { background-color: #FFFFFF }
+.lightblue-white .secondary-bg { background-color: #D7F9FF }
+.lightblue-white .accent-bg { background-color: #297AFB }
+.lightblue-white .primary-color { color: #000000 }
+.lightblue-white .secondary-color { color: #8F8F8F }
+.lightblue-white .svg-fill { fill: #01D8FD }
+.orange-flat { background-color: #F24A2A }
+.orange-flat .secondary-bg { background-color: #D44125 }
+.orange-flat .accent-bg { background-color: #2050D3 }
+.orange-flat .primary-color { color: #FFFFFF }
+.orange-flat .secondary-color { color: #FBDCDA }
+.orange-flat .svg-fill { fill: #FFFFFF }
+
+.orange-gradient { background: linear-gradient(#D44125, #F24A2A) }
+.orange-gradient .secondary-bg { background-color: #D44125 }
+.orange-gradient .accent-bg { background-color: #2050D3 }
+.orange-gradient .primary-color { color: #FFFFFF }
+.orange-gradient .secondary-color { color: #FBDCDA }
+.orange-gradient .svg-fill { fill: #FFFFFF }
+
+.orange-accent { background-color: #2050D3 }
+.orange-accent .secondary-bg { background-color: #D44125 }
+.orange-accent .accent-bg { background-color: #F24A2A }
+.orange-accent .primary-color { color: #FFFFFF }
+.orange-accent .secondary-color { color: #DFE6F9 }
+.orange-accent .svg-fill { fill: #FFFFFF }
+
+.orange-black { background-color: #D44125 }
+.orange-black .secondary-bg { background-color: #F24A2A }
+.orange-black .accent-bg { background-color: #2050D3 }
+.orange-black .primary-color { color: #FFFFFF }
+.orange-black .secondary-color { color: #F6D6D0 }
+.orange-black .svg-fill { fill: #FFFFFF }
+
+.orange-white { background-color: #FFFFFF }
+.orange-white .secondary-bg { background-color: #FBDCDA }
+.orange-white .accent-bg { background-color: #2050D3 }
+.orange-white .primary-color { color: #000000 }
+.orange-white .secondary-color { color: #8F8F8F }
+.orange-white .svg-fill { fill: #F24A2A }
+.green-flat { background-color: #8BD746 }
+.green-flat .secondary-bg { background-color: #33A07F }
+.green-flat .accent-bg { background-color: #267b70 }
+.green-flat .primary-color { color: #FFFFFF }
+.green-flat .secondary-color { color: #EBF8DE }
+.green-flat .svg-fill { fill: #FFFFFF }
+
+.green-gradient { background: linear-gradient(#33A07F, #8BD746) }
+.green-gradient .secondary-bg { background-color: #33A07F }
+.green-gradient .accent-bg { background-color: #267b70 }
+.green-gradient .primary-color { color: #FFFFFF }
+.green-gradient .secondary-color { color: #EBF8DE }
+.green-gradient .svg-fill { fill: #FFFFFF }
+
+.green-accent { background-color: #267b70 }
+.green-accent .secondary-bg { background-color: #33A07F }
+.green-accent .accent-bg { background-color: #8BD746 }
+.green-accent .primary-color { color: #FFFFFF }
+.green-accent .secondary-color { color: #DBE9E8 }
+.green-accent .svg-fill { fill: #FFFFFF }
+
+.green-black { background-color: #33A07F }
+.green-black .secondary-bg { background-color: #8BD746 }
+.green-black .accent-bg { background-color: #267b70 }
+.green-black .primary-color { color: #FFFFFF }
+.green-black .secondary-color { color: #DDEFE9 }
+.green-black .svg-fill { fill: #FFFFFF }
+
+.green-white { background-color: #FFFFFF }
+.green-white .secondary-bg { background-color: #EBF8DE }
+.green-white .accent-bg { background-color: #267b70 }
+.green-white .primary-color { color: #000000 }
+.green-white .secondary-color { color: #8F8F8F }
+.green-white .svg-fill { fill: #8BD746 }
+.beige-flat { background-color: #F2DEC5 }
+.beige-flat .secondary-bg { background-color: #E0C295 }
+.beige-flat .accent-bg { background-color: #666663 }
+.beige-flat .primary-color { color: #2d271e }
+.beige-flat .secondary-color { color: #756858 }
+.beige-flat .svg-fill { fill: #FFFFFF }
+
+.beige-gradient { background: linear-gradient(#E0C295, #F2DEC5) }
+.beige-gradient .secondary-bg { background-color: #E0C295 }
+.beige-gradient .accent-bg { background-color: #666663 }
+.beige-gradient .primary-color { color: #2d271e }
+.beige-gradient .secondary-color { color: #756858 }
+.beige-gradient .svg-fill { fill: #FFFFFF }
+
+.beige-accent { background-color: #666663 }
+.beige-accent .secondary-bg { background-color: #E0C295 }
+.beige-accent .accent-bg { background-color: #F2DEC5 }
+.beige-accent .primary-color { color: #FFFFFF }
+.beige-accent .secondary-color { color: #EFEFEF }
+.beige-accent .svg-fill { fill: #FFFFFF }
+
+.beige-black { background-color: #E0C295 }
+.beige-black .secondary-bg { background-color: #F2DEC5 }
+.beige-black .accent-bg { background-color: #666663 }
+.beige-black .primary-color { color: #2d271e }
+.beige-black .secondary-color { color: #6F604A }
+.beige-black .svg-fill { fill: #FFFFFF }
+
+.beige-white { background-color: #FFFFFF }
+.beige-white .secondary-bg { background-color: #FBF6EF }
+.beige-white .accent-bg { background-color: #666663 }
+.beige-white .primary-color { color: #2d271e }
+.beige-white .secondary-color { color: #8F8F8F }
+.beige-white .svg-fill { fill: #E0C295 }.gray-flat { background-color: #C4C8D4 }
+.gray-flat .secondary-bg { background-color: #E7E8E9 }
+.gray-flat .accent-bg { background-color: #443B55 }
+.gray-flat .primary-color { color: #000000 }
+.gray-flat .secondary-color { color: #72747B }
+.gray-flat .svg-fill { fill: #FFFFFF }
+
+.gray-gradient { background: linear-gradient(#E7E8E9, #C4C8D4) }
+.gray-gradient .secondary-bg { background-color: #E7E8E9 }
+.gray-gradient .accent-bg { background-color: #443B55 }
+.gray-gradient .primary-color { color: #000000 }
+.gray-gradient .secondary-color { color: #72747B }
+.gray-gradient .svg-fill { fill: #FFFFFF }
+
+.gray-accent { background-color: #443B55 }
+.gray-accent .secondary-bg { background-color: #b6bac7 }
+.gray-accent .accent-bg { background-color: #C4C8D4 }
+.gray-accent .primary-color { color: #FFFFFF }
+.gray-accent .secondary-color { color: #E8E7EA }
+.gray-accent .svg-fill { fill: #FFFFFF }
+
+.gray-black { background-color: #E7E8E9 }
+.gray-black .secondary-bg { background-color: #C4C8D4 }
+.gray-black .accent-bg { background-color: #443B55 }
+.gray-black .primary-color { color: #000000 }
+.gray-black .secondary-color { color: #5b5d5d }
+.gray-black .svg-fill { fill: #5b5d5d }
+
+.gray-white { background-color: #ffffff }
+.gray-white .secondary-bg { background-color: #F8F9FA }
+.gray-white .accent-bg { background-color: #443B55 }
+.gray-white .primary-color { color: #000000 }
+.gray-white .secondary-color { color: #8F8F8F }
+.gray-white .svg-fill { fill: #b6bac7 }
